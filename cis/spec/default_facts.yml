@@ -1,0 +1,9 @@
+# Use default_module_facts.yml for module specific facts.
+#
+# Facts specified here will override the values provided by rspec-puppet-facts.
+---
+ipaddress: "172.16.254.254"
+ipaddress6: "FE80:0000:0000:0000:AAAA:AAAA:AAAA"
+is_pe: false
+macaddress: "AA:AA:AA:AA:AA:AA"
+repofiles: '/etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-CR.repo /etc/yum.repos.d/CentOS-Debuginfo.repo /etc/yum.repos.d/CentOS-Media.repo /etc/yum.repos.d/CentOS-Sources.repo /etc/yum.repos.d/CentOS-Vault.repo /etc/yum.repos.d/CentOS-fasttrack.repo /etc/yum.repos.d/CentOS-x86_64-kernel.repo /etc/yum.repos.d/epel-testing.repo /etc/yum.repos.d/epel.repo /etc/yum.repos.d/puppet6.repo /etc/yum.repos.d/remi-glpi91.repo /etc/yum.repos.d/remi-glpi92.repo /etc/yum.repos.d/remi-glpi93.repo /etc/yum.repos.d/remi-glpi94.repo /etc/yum.repos.d/remi-modular.repo /etc/yum.repos.d/remi-php54.repo /etc/yum.repos.d/remi-php70.repo /etc/yum.repos.d/remi-php71.repo /etc/yum.repos.d/remi-php72.repo /etc/yum.repos.d/remi-php73.repo /etc/yum.repos.d/remi-php74.repo /etc/yum.repos.d/remi-php80.repo /etc/yum.repos.d/remi-php81.repo /etc/yum.repos.d/remi-safe.repo /etc/yum.repos.d/remi.repo'
